@@ -19,6 +19,12 @@ extension MKCoordinateSpan: Levitating {
     }
 }
 
+extension MKCoordinateRegion: Levitating {
+    public var coordinate2D: CLLocationCoordinate2D {
+        return self.center
+    }
+}
+
 public protocol Levitating {
     var coordinate2D: CLLocationCoordinate2D { get }
 }
