@@ -13,6 +13,12 @@ extension MKMapCamera: Levitating {
     }
 }
 
+extension MKCoordinateSpan: Levitating {
+    public var coordinate2D: CLLocationCoordinate2D {
+        return .init(latitude: self.latitudeDelta, longitude: self.longitudeDelta)
+    }
+}
+
 public protocol Levitating {
     var coordinate2D: CLLocationCoordinate2D { get }
 }
