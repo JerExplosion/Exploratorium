@@ -7,6 +7,12 @@
 
 import MapKit
 
+extension MKMapCamera: Levitating {
+    public var coordinate2D: CLLocationCoordinate2D {
+        return self.centerCoordinate
+    }
+}
+
 public protocol Levitating {
-    var coordinate: CLLocationCoordinate2D { get }
+    var coordinate2D: CLLocationCoordinate2D { get }
 }
