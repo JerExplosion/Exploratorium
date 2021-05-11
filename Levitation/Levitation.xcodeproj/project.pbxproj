@@ -14,6 +14,7 @@
 		8F42A266264A24BA004FA731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F42A264264A24BA004FA731 /* LaunchScreen.storyboard */; };
 		8FC7FCB8264A2A2300B765BD /* LevitationalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCB7264A2A2100B765BD /* LevitationalViewController.swift */; };
 		8FC7FCBE264A379F00B765BD /* AviationalMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCBD264A379F00B765BD /* AviationalMap.swift */; };
+		8FC7FCC3264A3AF200B765BD /* Levitational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCC2264A3AF200B765BD /* Levitational.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8F42A267264A24BA004FA731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FC7FCB7264A2A2100B765BD /* LevitationalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevitationalViewController.swift; sourceTree = "<group>"; };
 		8FC7FCBD264A379F00B765BD /* AviationalMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationalMap.swift; sourceTree = "<group>"; };
+		8FC7FCC2264A3AF200B765BD /* Levitational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levitational.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				8FC7FCBC264A373800B765BD /* Aviation */,
+				8FC7FCC1264A3ABE00B765BD /* Levitational */,
 				8F42A271264A2930004FA731 /* Defaults */,
 				8F42A26F264A28F0004FA731 /* ViewControllers */,
 				8F42A270264A2912004FA731 /* Views */,
@@ -100,6 +103,14 @@
 				8FC7FCBD264A379F00B765BD /* AviationalMap.swift */,
 			);
 			name = Aviation;
+			sourceTree = "<group>";
+		};
+		8FC7FCC1264A3ABE00B765BD /* Levitational */ = {
+			isa = PBXGroup;
+			children = (
+				8FC7FCC2264A3AF200B765BD /* Levitational.swift */,
+			);
+			name = Levitational;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FC7FCC3264A3AF200B765BD /* Levitational.swift in Sources */,
 				8FC7FCBE264A379F00B765BD /* AviationalMap.swift in Sources */,
 				8F42A25A264A24B2004FA731 /* AppDelegate.swift in Sources */,
 				8FC7FCB8264A2A2300B765BD /* LevitationalViewController.swift in Sources */,
