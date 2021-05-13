@@ -12,6 +12,7 @@
 		8F42A261264A24B2004FA731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F42A25F264A24B2004FA731 /* Main.storyboard */; };
 		8F42A263264A24BA004FA731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F42A262264A24BA004FA731 /* Assets.xcassets */; };
 		8F42A266264A24BA004FA731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F42A264264A24BA004FA731 /* LaunchScreen.storyboard */; };
+		8F4C2BA9264C96E40080679A /* LevitationalShashinki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4C2BA8264C96E40080679A /* LevitationalShashinki.swift */; };
 		8FC7FCB8264A2A2300B765BD /* LevitationalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCB7264A2A2100B765BD /* LevitationalViewController.swift */; };
 		8FC7FCBE264A379F00B765BD /* AviationalMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCBD264A379F00B765BD /* AviationalMap.swift */; };
 		8FC7FCC3264A3AF200B765BD /* Levitational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCC2264A3AF200B765BD /* Levitational.swift */; };
@@ -25,6 +26,7 @@
 		8F42A262264A24BA004FA731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F42A265264A24BA004FA731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F42A267264A24BA004FA731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F4C2BA8264C96E40080679A /* LevitationalShashinki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevitationalShashinki.swift; sourceTree = "<group>"; };
 		8FC7FCB7264A2A2100B765BD /* LevitationalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevitationalViewController.swift; sourceTree = "<group>"; };
 		8FC7FCBD264A379F00B765BD /* AviationalMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationalMap.swift; sourceTree = "<group>"; };
 		8FC7FCC2264A3AF200B765BD /* Levitational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levitational.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				8FC7FCC2264A3AF200B765BD /* Levitational.swift */,
+				8F4C2BA8264C96E40080679A /* LevitationalShashinki.swift */,
 			);
 			name = Levitational;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4C2BA9264C96E40080679A /* LevitationalShashinki.swift in Sources */,
 				8FC7FCC3264A3AF200B765BD /* Levitational.swift in Sources */,
 				8FC7FCBE264A379F00B765BD /* AviationalMap.swift in Sources */,
 				8F42A25A264A24B2004FA731 /* AppDelegate.swift in Sources */,
