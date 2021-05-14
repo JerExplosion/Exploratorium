@@ -32,6 +32,8 @@ public class LevitationalShashinki {
     }
     
     private var propertyAnimator: UIViewPropertyAnimator?
+    open var animatedCurve: UIView.AnimationCurve = .linear
+    private weak var mkmapView: MKMapView?
     
     private lazy var mappingShashinki: MKMapCamera = {
         let ssk = MKMapCamera()
@@ -39,6 +41,15 @@ public class LevitationalShashinki {
         ssk.altitude = config.altitude
         return ssk
     }()
+    
+    private func performingAviation(_ aviation: Levitating?) {
+        guard let aviation = aviation else { return }
+        
+        propertyAnimator = UIViewPropertyAnimator(duration: config.duration, curve: animatedCurve, animations: { [weak self] in
+            guard let self = self else { return }
+            self.mkmapView?.camera = self.mappingShashinki
+        })
+    }
     
 }
 
