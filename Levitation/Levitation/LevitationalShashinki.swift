@@ -21,6 +21,16 @@ public class LevitationalShashinki {
         }
     }
     
+    open var config: FundamentalConfigurations! { //put into initializer later
+        willSet {
+            
+        }
+        didSet {
+            mappingShashinki.pitch = CGFloat(config.viewingAngle)
+            mappingShashinki.altitude = config.altitude
+        }
+    }
+    
     private lazy var mappingShashinki: MKMapCamera = {
         let ssk = MKMapCamera()
         return ssk
