@@ -31,6 +31,7 @@ public class LevitationalShashinki {
         }
     }
     
+    private var aviation: Levitating?
     private var propertyAnimator: UIViewPropertyAnimator?
     open var animatedCurve: UIView.AnimationCurve = .linear
     private weak var mkmapView: MKMapView?
@@ -49,7 +50,19 @@ public class LevitationalShashinki {
             guard let self = self else { return }
             self.mkmapView?.camera = self.mappingShashinki
         })
+        
+        propertyAnimator?.uponCompletion { [weak self] in
+            self?.performingAviation(aviation)
+        }
+        propertyAnimator?.startAnimation()
     }
     
 }
 
+private extension UIViewPropertyAnimator {
+    func uponCompletion(_ completionClosure: @escaping () -> Void) {
+        addCompletion { _ in
+            completionClosure()
+        }
+    }
+}
