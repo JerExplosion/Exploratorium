@@ -17,6 +17,7 @@
 		8FC7FCB8264A2A2300B765BD /* LevitationalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCB7264A2A2100B765BD /* LevitationalViewController.swift */; };
 		8FC7FCBE264A379F00B765BD /* AviationalMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCBD264A379F00B765BD /* AviationalMap.swift */; };
 		8FC7FCC3264A3AF200B765BD /* Levitational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCC2264A3AF200B765BD /* Levitational.swift */; };
+		8FF44D05264F7DC000FECFCD /* ShashinkiState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF44D04264F7DC000FECFCD /* ShashinkiState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8FC7FCB7264A2A2100B765BD /* LevitationalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevitationalViewController.swift; sourceTree = "<group>"; };
 		8FC7FCBD264A379F00B765BD /* AviationalMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationalMap.swift; sourceTree = "<group>"; };
 		8FC7FCC2264A3AF200B765BD /* Levitational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levitational.swift; sourceTree = "<group>"; };
+		8FF44D04264F7DC000FECFCD /* ShashinkiState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShashinkiState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			children = (
 				8FC7FCC2264A3AF200B765BD /* Levitational.swift */,
 				8F4C2BA8264C96E40080679A /* LevitationalShashinki.swift */,
+				8FF44D04264F7DC000FECFCD /* ShashinkiState.swift */,
 			);
 			name = Levitational;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				8F4C2BA9264C96E40080679A /* LevitationalShashinki.swift in Sources */,
 				8FC7FCC3264A3AF200B765BD /* Levitational.swift in Sources */,
+				8FF44D05264F7DC000FECFCD /* ShashinkiState.swift in Sources */,
 				8FC7FCBE264A379F00B765BD /* AviationalMap.swift in Sources */,
 				8F42A25A264A24B2004FA731 /* AppDelegate.swift in Sources */,
 				8FC7FCB8264A2A2300B765BD /* LevitationalViewController.swift in Sources */,
