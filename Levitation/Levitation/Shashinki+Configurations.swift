@@ -22,3 +22,12 @@ extension LevitationalShashinki {
         }
     }
 }
+
+public extension LevitationalShashinki.FundamentalConfigurations {
+    static let defaultConfig = LevitationalShashinki.FundamentalConfigurations(
+        viewingAngle: 43.0,
+        headingDirection: 22.0,
+        altitude: 700,
+        duration: 3.8
+    )
+}
