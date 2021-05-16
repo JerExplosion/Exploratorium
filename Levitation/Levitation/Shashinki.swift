@@ -9,8 +9,11 @@ import MapKit
 
 public class LevitationalShashinki {
     
+    public init(mkmapView: MKMapView, config: FundamentalConfigurations = .defaultConfig) {
+        self.mkmapView = mkmapView
+        self.config = config
     }
-    
+ 
     open var config: FundamentalConfigurations! { //put into initializer later
         willSet {
             propertyAnimator?.stopAnimation(true)

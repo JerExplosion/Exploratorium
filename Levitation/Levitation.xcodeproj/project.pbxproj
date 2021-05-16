@@ -12,7 +12,7 @@
 		8F42A261264A24B2004FA731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F42A25F264A24B2004FA731 /* Main.storyboard */; };
 		8F42A263264A24BA004FA731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F42A262264A24BA004FA731 /* Assets.xcassets */; };
 		8F42A266264A24BA004FA731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F42A264264A24BA004FA731 /* LaunchScreen.storyboard */; };
-		8F4C2BA9264C96E40080679A /* LevitationalShashinki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4C2BA8264C96E40080679A /* LevitationalShashinki.swift */; };
+		8F4C2BA9264C96E40080679A /* Shashinki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4C2BA8264C96E40080679A /* Shashinki.swift */; };
 		8F6811C32651BA1700DD07B3 /* Shashinki+Configurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6811C22651BA1700DD07B3 /* Shashinki+Configurations.swift */; };
 		8F9650BF264E191F0043CFBF /* IntricateOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9650BE264E191F0043CFBF /* IntricateOperators.swift */; };
 		8FC7FCB8264A2A2300B765BD /* LevitationalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCB7264A2A2100B765BD /* LevitationalViewController.swift */; };
@@ -29,7 +29,7 @@
 		8F42A262264A24BA004FA731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F42A265264A24BA004FA731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F42A267264A24BA004FA731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F4C2BA8264C96E40080679A /* LevitationalShashinki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevitationalShashinki.swift; sourceTree = "<group>"; };
+		8F4C2BA8264C96E40080679A /* Shashinki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shashinki.swift; sourceTree = "<group>"; };
 		8F6811C22651BA1700DD07B3 /* Shashinki+Configurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shashinki+Configurations.swift"; sourceTree = "<group>"; };
 		8F9650BE264E191F0043CFBF /* IntricateOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntricateOperators.swift; sourceTree = "<group>"; };
 		8FC7FCB7264A2A2100B765BD /* LevitationalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevitationalViewController.swift; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		8F6811C12651B8EC00DD07B3 /* Shashinki */ = {
 			isa = PBXGroup;
 			children = (
-				8F4C2BA8264C96E40080679A /* LevitationalShashinki.swift */,
+				8F4C2BA8264C96E40080679A /* Shashinki.swift */,
 				8FF44D04264F7DC000FECFCD /* Shashinki+State.swift */,
 				8F6811C22651BA1700DD07B3 /* Shashinki+Configurations.swift */,
 			);
@@ -211,7 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F4C2BA9264C96E40080679A /* LevitationalShashinki.swift in Sources */,
+				8F4C2BA9264C96E40080679A /* Shashinki.swift in Sources */,
 				8FC7FCC3264A3AF200B765BD /* Levitational.swift in Sources */,
 				8FF44D05264F7DC000FECFCD /* Shashinki+State.swift in Sources */,
 				8FC7FCBE264A379F00B765BD /* AviationalMap.swift in Sources */,
