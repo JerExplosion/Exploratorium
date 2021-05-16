@@ -7,3 +7,10 @@
 
 import MapKit
 
+public extension AviationalMap {
+    enum MapType: String, CaseIterable, Hashable, Equatable {
+        case satellite
+        case hybrid
+        case standard
+    }
+}
