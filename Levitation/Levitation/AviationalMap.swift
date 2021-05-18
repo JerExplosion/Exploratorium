@@ -34,6 +34,10 @@ public class AviationalMap: MKMapView {
     public var state: LevitationalShashinki.ShashinkiState {
         return self.aviationalShashinki.state
     }
+    
+    public init(aviationalMapType: MapType = .standard, config: LevitationalShashinki.FundamentalConfigurations = .defaultConfig) {
+        super.init(frame: .zero)
+    }
         
     public required init?(coder: NSCoder) {
         return nil
