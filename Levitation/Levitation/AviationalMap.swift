@@ -30,6 +30,10 @@ public class AviationalMap: MKMapView {
             return self.aviationalShashinki.config
         }
     }
+    
+    public var state: LevitationalShashinki.ShashinkiState {
+        return self.aviationalShashinki.state
+    }
         
     public required init?(coder: NSCoder) {
         return nil

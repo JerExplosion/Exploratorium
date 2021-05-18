@@ -23,6 +23,7 @@ public class LevitationalShashinki {
             mappingShashinki.altitude = config.altitude
         }
     }
+    open var state: ShashinkiState = .hasStopped
     
     private var aviation: Levitating?
     private var propertyAnimator: UIViewPropertyAnimator?
