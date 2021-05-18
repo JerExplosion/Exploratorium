@@ -37,6 +37,14 @@ public class AviationalMap: MKMapView {
     
     public init(aviationalMapType: MapType = .standard, config: LevitationalShashinki.FundamentalConfigurations = .defaultConfig) {
         super.init(frame: .zero)
+        
+        self.aviationalMapType = aviationalMapType
+        self.aviationalShashinki.config = config
+        
+        #if os(iOS)
+        self.showsCompass = false
+        #endif
+        self.showsBuildings = true
     }
         
     public required init?(coder: NSCoder) {
