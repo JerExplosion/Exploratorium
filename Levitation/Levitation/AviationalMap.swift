@@ -21,6 +21,15 @@ public class AviationalMap: MKMapView {
             return MapType(rawValue: self.mapType)
         }
     }
+    
+    public var config: LevitationalShashinki.FundamentalConfigurations {
+        set {
+            self.aviationalShashinki.config = newValue
+        }
+        get {
+            return self.aviationalShashinki.config
+        }
+    }
         
     public required init?(coder: NSCoder) {
         return nil
