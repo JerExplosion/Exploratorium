@@ -8,11 +8,11 @@
 import UIKit
 
 open class AviationalChizuViewController: UIViewController {
-    open var aviationalMapView: AviationalMap?
+    open var aviationalMapView: AviationalMap
     
-    open var aviation: Levitating? {
+    open var aviation: Levitating {
         didSet {
-            
+            self.aviationalMapView.start(aviation: aviation)
         }
     }
     
@@ -22,6 +22,7 @@ open class AviationalChizuViewController: UIViewController {
         self.aviation = aviation
         self.aviationalMapView = AviationalMap(aviationalMapType: mapType, config: config)
         super.init(nibName: nil, bundle: nil)
+        self.aviationalMapView.start(aviation: aviation)
     }
     
     public required init?(coder: NSCoder) {

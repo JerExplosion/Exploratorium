@@ -51,4 +51,8 @@ public class AviationalMap: MKMapView {
         return nil
     }
     
+    open func start(aviation: Levitating) {
+        self.isUserInteractionEnabled = false
+        // self.aviationalShashinki.start(aviation: Levitating)
+    }
 }
