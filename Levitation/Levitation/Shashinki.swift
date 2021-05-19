@@ -37,6 +37,17 @@ public class LevitationalShashinki {
         return ssk
     }()
     
+    open func start(aviation: Levitating) {
+        self.aviation = aviation
+        if UIApplication.shared.applicationState != .active {
+            return
+        }
+        self.state = .hasStarted
+        self.propertyAnimator?.stopAnimation(true)
+        self.mappingShashinki.centerCoordinate = aviation.coordinate2D
+        // etc.
+    }
+    
     private func performingAviation(_ aviation: Levitating?) {
         guard let aviation = aviation else { return }
         
