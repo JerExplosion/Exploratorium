@@ -15,6 +15,15 @@ open class AviationalChizuViewController: UIViewController {
             
         }
     }
+    
+    public init(aviation: Levitating,
+                config: LevitationalShashinki.FundamentalConfigurations = .defaultConfig,
+                mapType: AviationalMap.MapType = .standard) {
+        self.aviation = aviation
+        self.aviationalMapView = AviationalMap(aviationalMapType: mapType, config: config)
+        super.init(nibName: nil, bundle: nil)
+    }
+    
     public required init?(coder: NSCoder) {
         return nil
     }
