@@ -6,12 +6,14 @@
 //
 
 import UIKit
+import CoreLocation
 
-final class LevitationalViewController: UIViewController {
+final class LevitationalViewController: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+        locationDealer.delegate = self
     }
+    let locationDealer = CLLocationManager()
 }
 
 final class CirculatedButton: UIButton {
