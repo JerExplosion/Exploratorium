@@ -17,6 +17,16 @@
 		8F6811C82651C57E00DD07B3 /* Aviational+MapType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6811C72651C57E00DD07B3 /* Aviational+MapType.swift */; };
 		8F9650BF264E191F0043CFBF /* IntricateOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9650BE264E191F0043CFBF /* IntricateOperators.swift */; };
 		8F9EA4A12651D39E005DCCF3 /* AviationalChizuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9EA4A02651D39E005DCCF3 /* AviationalChizuViewController.swift */; };
+		8FB2FB63266C7E3800FDA46F /* Flyover+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2FB56266C7E3800FDA46F /* Flyover+Operators.swift */; };
+		8FB2FB64266C7E3800FDA46F /* FlyoverCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2FB58266C7E3800FDA46F /* FlyoverCamera.swift */; };
+		8FB2FB65266C7E3900FDA46F /* FlyoverCamera+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2FB59266C7E3800FDA46F /* FlyoverCamera+State.swift */; };
+		8FB2FB66266C7E3900FDA46F /* FlyoverCamera+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2FB5A266C7E3800FDA46F /* FlyoverCamera+Configuration.swift */; };
+		8FB2FB67266C7E3900FDA46F /* FlyoverCamera+RegionChangeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2FB5B266C7E3800FDA46F /* FlyoverCamera+RegionChangeAnimation.swift */; };
+		8FB2FB68266C7E3900FDA46F /* Flyover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2FB5C266C7E3800FDA46F /* Flyover.swift */; };
+		8FB2FB69266C7E3900FDA46F /* FlyoverAwesomePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2FB5E266C7E3800FDA46F /* FlyoverAwesomePlace.swift */; };
+		8FB2FB6A266C7E3900FDA46F /* FlyoverMapView+MapType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2FB60266C7E3800FDA46F /* FlyoverMapView+MapType.swift */; };
+		8FB2FB6B266C7E3900FDA46F /* FlyoverMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2FB61266C7E3800FDA46F /* FlyoverMapViewController.swift */; };
+		8FB2FB6C266C7E3900FDA46F /* FlyoverMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2FB62266C7E3800FDA46F /* FlyoverMapView.swift */; };
 		8FC7FCB8264A2A2300B765BD /* LevitationalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCB7264A2A2100B765BD /* LevitationalViewController.swift */; };
 		8FC7FCBE264A379F00B765BD /* AviationalMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCBD264A379F00B765BD /* AviationalMap.swift */; };
 		8FC7FCC3264A3AF200B765BD /* Levitational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCC2264A3AF200B765BD /* Levitational.swift */; };
@@ -36,6 +46,16 @@
 		8F6811C72651C57E00DD07B3 /* Aviational+MapType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aviational+MapType.swift"; sourceTree = "<group>"; };
 		8F9650BE264E191F0043CFBF /* IntricateOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntricateOperators.swift; sourceTree = "<group>"; };
 		8F9EA4A02651D39E005DCCF3 /* AviationalChizuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationalChizuViewController.swift; sourceTree = "<group>"; };
+		8FB2FB56266C7E3800FDA46F /* Flyover+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Flyover+Operators.swift"; sourceTree = "<group>"; };
+		8FB2FB58266C7E3800FDA46F /* FlyoverCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyoverCamera.swift; sourceTree = "<group>"; };
+		8FB2FB59266C7E3800FDA46F /* FlyoverCamera+State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlyoverCamera+State.swift"; sourceTree = "<group>"; };
+		8FB2FB5A266C7E3800FDA46F /* FlyoverCamera+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlyoverCamera+Configuration.swift"; sourceTree = "<group>"; };
+		8FB2FB5B266C7E3800FDA46F /* FlyoverCamera+RegionChangeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlyoverCamera+RegionChangeAnimation.swift"; sourceTree = "<group>"; };
+		8FB2FB5C266C7E3800FDA46F /* Flyover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flyover.swift; sourceTree = "<group>"; };
+		8FB2FB5E266C7E3800FDA46F /* FlyoverAwesomePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyoverAwesomePlace.swift; sourceTree = "<group>"; };
+		8FB2FB60266C7E3800FDA46F /* FlyoverMapView+MapType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlyoverMapView+MapType.swift"; sourceTree = "<group>"; };
+		8FB2FB61266C7E3800FDA46F /* FlyoverMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyoverMapViewController.swift; sourceTree = "<group>"; };
+		8FB2FB62266C7E3800FDA46F /* FlyoverMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyoverMapView.swift; sourceTree = "<group>"; };
 		8FC7FCB7264A2A2100B765BD /* LevitationalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevitationalViewController.swift; sourceTree = "<group>"; };
 		8FC7FCBD264A379F00B765BD /* AviationalMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationalMap.swift; sourceTree = "<group>"; };
 		8FC7FCC2264A3AF200B765BD /* Levitational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levitational.swift; sourceTree = "<group>"; };
@@ -81,6 +101,7 @@
 				8F42A270264A2912004FA731 /* Views */,
 				8F42A262264A24BA004FA731 /* Assets.xcassets */,
 				8F42A264264A24BA004FA731 /* LaunchScreen.storyboard */,
+				8FB2FB55266C7E3800FDA46F /* Sources */,
 				8F42A267264A24BA004FA731 /* Info.plist */,
 			);
 			path = Levitation;
@@ -127,6 +148,47 @@
 				8F9650BE264E191F0043CFBF /* IntricateOperators.swift */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		8FB2FB55266C7E3800FDA46F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8FB2FB56266C7E3800FDA46F /* Flyover+Operators.swift */,
+				8FB2FB57266C7E3800FDA46F /* Camera */,
+				8FB2FB5C266C7E3800FDA46F /* Flyover.swift */,
+				8FB2FB5D266C7E3800FDA46F /* AwesomePlace */,
+				8FB2FB5F266C7E3800FDA46F /* MapView */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8FB2FB57266C7E3800FDA46F /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				8FB2FB58266C7E3800FDA46F /* FlyoverCamera.swift */,
+				8FB2FB59266C7E3800FDA46F /* FlyoverCamera+State.swift */,
+				8FB2FB5A266C7E3800FDA46F /* FlyoverCamera+Configuration.swift */,
+				8FB2FB5B266C7E3800FDA46F /* FlyoverCamera+RegionChangeAnimation.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		8FB2FB5D266C7E3800FDA46F /* AwesomePlace */ = {
+			isa = PBXGroup;
+			children = (
+				8FB2FB5E266C7E3800FDA46F /* FlyoverAwesomePlace.swift */,
+			);
+			path = AwesomePlace;
+			sourceTree = "<group>";
+		};
+		8FB2FB5F266C7E3800FDA46F /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				8FB2FB60266C7E3800FDA46F /* FlyoverMapView+MapType.swift */,
+				8FB2FB61266C7E3800FDA46F /* FlyoverMapViewController.swift */,
+				8FB2FB62266C7E3800FDA46F /* FlyoverMapView.swift */,
+			);
+			path = MapView;
 			sourceTree = "<group>";
 		};
 		8FC7FCBC264A373800B765BD /* Aviation */ = {
@@ -217,15 +279,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB2FB68266C7E3900FDA46F /* Flyover.swift in Sources */,
+				8FB2FB6A266C7E3900FDA46F /* FlyoverMapView+MapType.swift in Sources */,
 				8F4C2BA9264C96E40080679A /* Shashinki.swift in Sources */,
 				8FC7FCC3264A3AF200B765BD /* Levitational.swift in Sources */,
+				8FB2FB65266C7E3900FDA46F /* FlyoverCamera+State.swift in Sources */,
+				8FB2FB6B266C7E3900FDA46F /* FlyoverMapViewController.swift in Sources */,
 				8FF44D05264F7DC000FECFCD /* Shashinki+State.swift in Sources */,
 				8F6811C82651C57E00DD07B3 /* Aviational+MapType.swift in Sources */,
+				8FB2FB64266C7E3800FDA46F /* FlyoverCamera.swift in Sources */,
 				8F9EA4A12651D39E005DCCF3 /* AviationalChizuViewController.swift in Sources */,
 				8FC7FCBE264A379F00B765BD /* AviationalMap.swift in Sources */,
+				8FB2FB69266C7E3900FDA46F /* FlyoverAwesomePlace.swift in Sources */,
 				8F42A25A264A24B2004FA731 /* AppDelegate.swift in Sources */,
+				8FB2FB67266C7E3900FDA46F /* FlyoverCamera+RegionChangeAnimation.swift in Sources */,
+				8FB2FB63266C7E3800FDA46F /* Flyover+Operators.swift in Sources */,
+				8FB2FB6C266C7E3900FDA46F /* FlyoverMapView.swift in Sources */,
 				8FC7FCB8264A2A2300B765BD /* LevitationalViewController.swift in Sources */,
 				8F6811C32651BA1700DD07B3 /* Shashinki+Configurations.swift in Sources */,
+				8FB2FB66266C7E3900FDA46F /* FlyoverCamera+Configuration.swift in Sources */,
 				8F42A25C264A24B2004FA731 /* SceneDelegate.swift in Sources */,
 				8F9650BF264E191F0043CFBF /* IntricateOperators.swift in Sources */,
 			);
