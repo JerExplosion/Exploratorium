@@ -1,10 +1,6 @@
 //
 //  Flyover.swift
 //  FlyoverKit
-//
-//  Created by Sven Tiigi on 21.02.18.
-//  Copyright © 2018 Sven Tiigi. All rights reserved.
-//
 
 import MapKit
 

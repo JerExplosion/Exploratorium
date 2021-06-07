@@ -1,10 +1,6 @@
 //
 //  FlyoverCamera+State.swift
 //  FlyoverKit
-//
-//  Created by Sven Tiigi on 28.02.18.
-//  Copyright © 2018 Sven Tiigi. All rights reserved.
-//
 
 import Foundation
 
