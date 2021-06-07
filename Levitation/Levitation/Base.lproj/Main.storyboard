@@ -44,6 +44,9 @@
                             <constraint firstAttribute="bottom" secondItem="l2l-pb-kpF" secondAttribute="bottom" id="c2W-iY-rvh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="slyMap" destination="l2l-pb-kpF" id="KAY-mU-pN8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

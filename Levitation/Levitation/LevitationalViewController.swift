@@ -6,12 +6,18 @@
 //
 
 import UIKit
+import MapKit
 import CoreLocation
 
 final class LevitationalViewController: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         locationDealer.delegate = self
+    }
+    @IBOutlet weak var slyMap: MKMapView! {
+        didSet {
+
+        }
     }
     let locationDealer = CLLocationManager()
 }
