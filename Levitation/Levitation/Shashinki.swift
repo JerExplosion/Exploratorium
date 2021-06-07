@@ -57,9 +57,9 @@ public class LevitationalShashinki {
         })
         
         propertyAnimator?.uponCompletion { [weak self] in
-            if self?.aviation ~~ aviation {
+            // if self?.aviation ~~ aviation {
                 self?.performingAviation(aviation)
-            }
+            //}
         }
         propertyAnimator?.startAnimation()
     }
