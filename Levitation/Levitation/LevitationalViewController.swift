@@ -16,7 +16,13 @@ final class LevitationalViewController: UIViewController, CLLocationManagerDeleg
     }
     @IBOutlet weak var slyMap: MKMapView! {
         didSet {
-
+            slyMap.isUserInteractionEnabled = true
+            slyMap.isScrollEnabled = true
+            slyMap.isZoomEnabled = true
+            slyMap.isRotateEnabled = true
+            slyMap.isPitchEnabled = true
+            slyMap.showsBuildings = true
+            slyMap.mapType = .hybridFlyover
         }
     }
     let locationDealer = CLLocationManager()
