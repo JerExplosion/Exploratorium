@@ -15,6 +15,7 @@ final class LevitationalViewController: UIViewController, CLLocationManagerDeleg
         locationDealer.delegate = self
         flightExperiment()
         checkingLocationServices()
+        zoomingOntoUserLocation()
     }
     
     private func flightExperiment() {
@@ -37,10 +38,18 @@ final class LevitationalViewController: UIViewController, CLLocationManagerDeleg
         }
     }
     let locationDealer = CLLocationManager()
+    private let region1DMetrics: Double = 12121.2
     
     internal func settingUpLocationDealer() {
         locationDealer.delegate = self
         locationDealer.desiredAccuracy = kCLLocationAccuracyBest
+    }
+    
+    private func zoomingOntoUserLocation() {
+        if let locus = locationDealer.location?.coordinate {
+            let region2D = MKCoordinateRegion(center: locus, latitudinalMeters: region1DMetrics, longitudinalMeters: region1DMetrics)
+            slyMap.setRegion(region2D, animated: true)
+        }
     }
     
     private func checkingLocationServices() {
@@ -54,6 +63,9 @@ final class LevitationalViewController: UIViewController, CLLocationManagerDeleg
     private func checkingLocationAuthorization() {
         switch CLLocationManager.authorizationStatus() {
         case .authorizedWhenInUse:
+            slyMap.showsUserLocation = true
+            zoomingOntoUserLocation()
+            locationDealer.startUpdatingLocation()
             break
         case .authorizedAlways:
             break
