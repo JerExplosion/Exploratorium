@@ -41,6 +41,20 @@ final class LevitationalViewController: UIViewController, CLLocationManagerDeleg
         locationDealer.delegate = self
         locationDealer.desiredAccuracy = kCLLocationAccuracyBest
     }
+    private func checkingLocationAuthorization() {
+        switch CLLocationManager.authorizationStatus() {
+        case .authorizedWhenInUse:
+            break
+        case .authorizedAlways:
+            break
+        case .restricted:
+            break
+        case .notDetermined:
+            break
+        case .denied:
+            break
+        }
+    }
 }
 
 extension LevitationalViewController {
