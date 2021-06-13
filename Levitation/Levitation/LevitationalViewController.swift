@@ -38,6 +38,16 @@ final class LevitationalViewController: UIViewController, CLLocationManagerDeleg
     let locationDealer = CLLocationManager()
 }
 
+extension LevitationalViewController {
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        
+    }
+    
+    internal func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        
+    }
+}
+
 final class CirculatedButton: UIButton {
     override func awakeFromNib() {
         layer.masksToBounds = true
