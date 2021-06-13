@@ -60,7 +60,7 @@ final class LevitationalViewController: UIViewController, CLLocationManagerDeleg
         case .restricted:
             break
         case .notDetermined:
-            break
+            locationDealer.requestWhenInUseAuthorization()
         case .denied:
             break
         }
