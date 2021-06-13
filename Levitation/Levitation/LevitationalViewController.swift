@@ -14,6 +14,7 @@ final class LevitationalViewController: UIViewController, CLLocationManagerDeleg
         super.viewDidLoad()
         locationDealer.delegate = self
         flightExperiment()
+        checkingLocationServices()
     }
     
     private func flightExperiment() {
@@ -40,6 +41,15 @@ final class LevitationalViewController: UIViewController, CLLocationManagerDeleg
     internal func settingUpLocationDealer() {
         locationDealer.delegate = self
         locationDealer.desiredAccuracy = kCLLocationAccuracyBest
+    }
+    
+    private func checkingLocationServices() {
+        if CLLocationManager.locationServicesEnabled() {
+            settingUpLocationDealer()
+            checkingLocationAuthorization()
+        } else {
+            
+        }
     }
     private func checkingLocationAuthorization() {
         switch CLLocationManager.authorizationStatus() {
