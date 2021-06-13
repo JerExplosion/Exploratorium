@@ -36,6 +36,11 @@ final class LevitationalViewController: UIViewController, CLLocationManagerDeleg
         }
     }
     let locationDealer = CLLocationManager()
+    
+    internal func settingUpLocationDealer() {
+        locationDealer.delegate = self
+        locationDealer.desiredAccuracy = kCLLocationAccuracyBest
+    }
 }
 
 extension LevitationalViewController {
