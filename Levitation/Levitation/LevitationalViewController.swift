@@ -81,11 +81,14 @@ final class LevitationalViewController: UIViewController, CLLocationManagerDeleg
 
 extension LevitationalViewController {
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-        
+        checkingLocationAuthorization()
     }
     
     internal func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        
+        guard let lastKnownLocation = locations.last else { return }
+        let center = CLLocationCoordinate2D(latitude: lastKnownLocation.coordinate.latitude, longitude: lastKnownLocation.coordinate.longitude)
+        let region = MKCoordinateRegion(center: center, latitudinalMeters: region1DMetrics, longitudinalMeters: region1DMetrics)
+        slyMap.setRegion(region, animated: true)
     }
 }
 
