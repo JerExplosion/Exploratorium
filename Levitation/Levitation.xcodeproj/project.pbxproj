@@ -15,6 +15,7 @@
 		8F4C2BA9264C96E40080679A /* Shashinki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4C2BA8264C96E40080679A /* Shashinki.swift */; };
 		8F6811C32651BA1700DD07B3 /* Shashinki+Configurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6811C22651BA1700DD07B3 /* Shashinki+Configurations.swift */; };
 		8F6811C82651C57E00DD07B3 /* Aviational+MapType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6811C72651C57E00DD07B3 /* Aviational+MapType.swift */; };
+		8F816A992678442200A0C681 /* UsefulUIComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F816A982678442200A0C681 /* UsefulUIComponents.swift */; };
 		8F9650BF264E191F0043CFBF /* IntricateOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9650BE264E191F0043CFBF /* IntricateOperators.swift */; };
 		8F9EA4A12651D39E005DCCF3 /* AviationalChizuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9EA4A02651D39E005DCCF3 /* AviationalChizuViewController.swift */; };
 		8FB2FB63266C7E3800FDA46F /* Flyover+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2FB56266C7E3800FDA46F /* Flyover+Operators.swift */; };
@@ -44,6 +45,7 @@
 		8F4C2BA8264C96E40080679A /* Shashinki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shashinki.swift; sourceTree = "<group>"; };
 		8F6811C22651BA1700DD07B3 /* Shashinki+Configurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shashinki+Configurations.swift"; sourceTree = "<group>"; };
 		8F6811C72651C57E00DD07B3 /* Aviational+MapType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aviational+MapType.swift"; sourceTree = "<group>"; };
+		8F816A982678442200A0C681 /* UsefulUIComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulUIComponents.swift; sourceTree = "<group>"; };
 		8F9650BE264E191F0043CFBF /* IntricateOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntricateOperators.swift; sourceTree = "<group>"; };
 		8F9EA4A02651D39E005DCCF3 /* AviationalChizuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationalChizuViewController.swift; sourceTree = "<group>"; };
 		8FB2FB56266C7E3800FDA46F /* Flyover+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Flyover+Operators.swift"; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				8FC7FCB7264A2A2100B765BD /* LevitationalViewController.swift */,
+				8F816A982678442200A0C681 /* UsefulUIComponents.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				8FB2FB65266C7E3900FDA46F /* FlyoverCamera+State.swift in Sources */,
 				8FB2FB6B266C7E3900FDA46F /* FlyoverMapViewController.swift in Sources */,
 				8FF44D05264F7DC000FECFCD /* Shashinki+State.swift in Sources */,
+				8F816A992678442200A0C681 /* UsefulUIComponents.swift in Sources */,
 				8F6811C82651C57E00DD07B3 /* Aviational+MapType.swift in Sources */,
 				8FB2FB64266C7E3800FDA46F /* FlyoverCamera.swift in Sources */,
 				8F9EA4A12651D39E005DCCF3 /* AviationalChizuViewController.swift in Sources */,
