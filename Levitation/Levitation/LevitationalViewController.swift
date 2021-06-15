@@ -57,7 +57,7 @@ final class LevitationalViewController: UIViewController, CLLocationManagerDeleg
             settingUpLocationDealer()
             checkingLocationAuthorization()
         } else {
-            
+            // kindly tell 'em to turn location services on across the device, in settings
         }
     }
     private func checkingLocationAuthorization() {
