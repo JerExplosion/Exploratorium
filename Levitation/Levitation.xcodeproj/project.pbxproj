@@ -113,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				8FC7FCB7264A2A2100B765BD /* LevitationalViewController.swift */,
-				8F816A982678442200A0C681 /* UsefulUIComponents.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -122,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				8F42A25F264A24B2004FA731 /* Main.storyboard */,
+				8F816A982678442200A0C681 /* UsefulUIComponents.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
