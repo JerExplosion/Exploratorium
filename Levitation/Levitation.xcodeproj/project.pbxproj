@@ -31,6 +31,7 @@
 		8FC7FCB8264A2A2300B765BD /* LevitationalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCB7264A2A2100B765BD /* LevitationalViewController.swift */; };
 		8FC7FCBE264A379F00B765BD /* AviationalMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCBD264A379F00B765BD /* AviationalMap.swift */; };
 		8FC7FCC3264A3AF200B765BD /* Levitational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC7FCC2264A3AF200B765BD /* Levitational.swift */; };
+		8FE144DE267A35F40032AB41 /* BindBoxObservables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE144DD267A35F40032AB41 /* BindBoxObservables.swift */; };
 		8FF44D05264F7DC000FECFCD /* Shashinki+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF44D04264F7DC000FECFCD /* Shashinki+State.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		8FC7FCB7264A2A2100B765BD /* LevitationalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevitationalViewController.swift; sourceTree = "<group>"; };
 		8FC7FCBD264A379F00B765BD /* AviationalMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviationalMap.swift; sourceTree = "<group>"; };
 		8FC7FCC2264A3AF200B765BD /* Levitational.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levitational.swift; sourceTree = "<group>"; };
+		8FE144DD267A35F40032AB41 /* BindBoxObservables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindBoxObservables.swift; sourceTree = "<group>"; };
 		8FF44D04264F7DC000FECFCD /* Shashinki+State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shashinki+State.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				8F9650BE264E191F0043CFBF /* IntricateOperators.swift */,
+				8FE144DD267A35F40032AB41 /* BindBoxObservables.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				8FB2FB65266C7E3900FDA46F /* FlyoverCamera+State.swift in Sources */,
 				8FB2FB6B266C7E3900FDA46F /* FlyoverMapViewController.swift in Sources */,
 				8FF44D05264F7DC000FECFCD /* Shashinki+State.swift in Sources */,
+				8FE144DE267A35F40032AB41 /* BindBoxObservables.swift in Sources */,
 				8F816A992678442200A0C681 /* UsefulUIComponents.swift in Sources */,
 				8F6811C82651C57E00DD07B3 /* Aviational+MapType.swift in Sources */,
 				8FB2FB64266C7E3800FDA46F /* FlyoverCamera.swift in Sources */,
