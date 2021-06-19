@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+class BindBoxObservables<T> {
+    typealias Observer = ((T) -> Void)
+    private var observer: Observer?
+    
+    var coreVal: T {
+        didSet {
+            observer?(coreVal)
+        }
+    }
+    internal init(_ coreVal: T) {
+        self.coreVal = coreVal
+    }
+}
