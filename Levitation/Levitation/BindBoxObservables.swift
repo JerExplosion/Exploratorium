@@ -20,3 +20,10 @@ class BindBoxObservables<T> {
         self.coreVal = coreVal
     }
 }
+
+extension BindBoxObservables {
+    func binding(observer: Observer?) {
+        self.observer = observer
+        observer?(coreVal)
+    }
+}
