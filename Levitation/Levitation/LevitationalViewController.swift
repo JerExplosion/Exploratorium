@@ -34,7 +34,7 @@ final class LevitationalViewController: UIViewController, CLLocationManagerDeleg
             slyMap.isRotateEnabled = true
             slyMap.isPitchEnabled = true
             slyMap.showsBuildings = true
-            slyMap.mapType = .hybridFlyover
+            slyMap.mapType = .satelliteFlyover
         }
     }
     let locationDealer = CLLocationManager()
