@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Levitation/Pods-Levitation-frameworks.sh
+${BUILT_PRODUCTS_DIR}/GEOSwift/GEOSwift.framework
+${BUILT_PRODUCTS_DIR}/geos/geos.framework
