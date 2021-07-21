@@ -7,7 +7,7 @@ target 'Levitation' do
 
   # Pods for Levitation
 
-    pod 'GEOSwift'
+    # pod 'GEOSwift'
   
     #pod 'ArcGIS-Runtime-SDK-iOS'
 
